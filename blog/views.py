@@ -2,6 +2,8 @@ from datetime import date
 
 from django.shortcuts import render
 
+from . models import Post
+
 all_posts = [
     {
         "slug": "hike-in-the-mountains",
