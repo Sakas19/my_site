@@ -105,5 +105,4 @@ class ReadLaterView(View):
         request.session["stored_posts"] = stored_posts
         
         return HttpResponseRedirect("/")
-        
     
